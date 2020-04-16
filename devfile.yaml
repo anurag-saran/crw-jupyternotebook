@@ -1,10 +1,5 @@
 metadata:
   name: jupyter
-projects:
-  - name: python-hello-world
-    source:
-      location: 'https://github.com/che-samples/python-hello-world.git'
-      type: git
 components:
   - type: cheEditor
     reference: >-
