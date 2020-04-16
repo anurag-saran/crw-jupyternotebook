@@ -1,0 +1,14 @@
+metadata:
+  name: jupyter
+projects:
+  - name: python-hello-world
+    source:
+      location: 'https://github.com/che-samples/python-hello-world.git'
+      type: git
+components:
+  - type: cheEditor
+    reference: >-
+      https://raw.githubusercontent.com/eclipse/che-plugin-registry/master/v3/plugins/ws-skeleton/jupyter/5.7.0/meta.yaml
+    alias: aditor
+apiVersion: 1.0.0
+you can remove the project section as it is of no use
